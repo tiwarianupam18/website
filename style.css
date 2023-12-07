@@ -1,0 +1,235 @@
+body {
+    margin: 0;
+    margin-top: 50px;
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    line-height: 50px;
+    background-color: #eee;
+}
+
+header * {
+    display: inline;
+    height: 50px;
+}
+
+
+header ul {
+    padding: 0;
+}
+
+header li {
+    margin-left: 20px;
+}
+
+section {
+    height: 100vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    
+    background-size: cover; /* Add this line */
+    background-position: center center; /* Add this line */
+    background-repeat: no-repeat; /* Add this line */
+    background-attachment: fixed; /* Add this line */
+}
+
+#hero .profile-img {
+    width: 430px;
+    border-radius: 50%;
+    }
+#wc{
+    align-items: flex-end;
+    color:rgb(243 78 19);
+}
+footer {
+    text-align: center;
+    padding: 50px;
+}
+
+#hero h1 {
+    font-size: 3em;
+}
+
+section h2 {
+    font-size: 2.5em;
+   
+}
+/* heading css */
+.heading{ color: #42188e;
+    transition-property: opacity, transform;
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    font-optical-sizing: auto;
+    opacity: 1;
+    font-family: "Bebas_Neue variant0", Tofu;
+    line-height: initial;
+    transition-duration: 350ms;
+    background-color:#69fff0c4;
+    font-size: 40px;
+    padding: 7px; 
+}
+
+section h3 {
+    font-size: 1.5em;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Add everything below here */
+#hero {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://images.unsplash.com/photo-1518913393421-d9247350bf04?auto=format&fit=crop&q=60&w=600&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8OXxHNWo4T0gxLWpwc3x8ZW58MHx8fHx8');
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#about {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://codetheweb.blog/assets/img/posts/steps-to-creating-a-website/beach.jpg');
+ font-family: "Kanit variant0", Tofu;
+ font-style: normal;
+}
+
+#contact {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://codetheweb.blog/assets/img/posts/steps-to-creating-a-website/canyon.jpg');
+}
+
+#causes{
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://images.unsplash.com/photo-1485204261646-2e9f783c88cd?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+}
+#solution{background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://media.istockphoto.com/id/1149012839/photo/gala-flower.jpg?s=1024x1024&w=is&k=20&c=ayxeeCpE5XHZEYWkRdUMQ9FHyc-F6sHw5XVlY-iGyk0=')}
+
+#harms{background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://media.istockphoto.com/id/1694240167/photo/abstract-ocean-waves-breaking-with-vivid-golden-sunrise.jpg?s=1024x1024&w=is&k=20&c=tR3D_fU0TFccUXBB1ycF09GsUm3NoLUkHxtD4x9FRi0=')
+}
+#excercise{background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://sphera.com/wp-content/uploads/2020/08/Sustainability-Consulting.jpg')
+}
+#prasn{background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://www.bvm-home.com/cdn/shop/products/Custom-3D-Photo-Wallpaper-Mountain-Forest-Autumn-Maple-Leaf-Natural-Landscape-Non-woven-Art-Mural-Living_61207e38-96a0-495f-b1b6-341b9c32e9aa_1200x1200.jpg?v=1571609156')
+}
+#feedback{background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://wallpaperbat.com/img/642428-natural-flower-wallpaper-top-free-natural-flower-background.jpg')
+}
+#prfaq{background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://png.pngtree.com/background/20221020/original/pngtree-watercolor-background-with-red-flowers-corner-picture-image_1921157.jpg')
+}
+
+/* MY CSS */
+.goalstyle{
+    font-size:xx-large;
+  }
+  /* causes img css */
+  .container {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+  }
+  
+  img {
+    max-width: 80%;
+    max-height:80%;
+    float: left;
+    padding-left: 23px; 
+    padding-top: 50px;
+    margin-top: 20px;
+    margin-left:10%;
+    border-radius: 10%;
+   
+  }
+  
+  .text {
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 5%; 
+    /* padding-bottom: 25px; */
+    /* float: left; */
+  }
+  #causes{
+    justify-content: baseline;
+    align-items: normal;
+    
+  }
+  /* excercises */
+  .zym{
+    float: right;
+    width: 48%;
+  }
+  .fit{
+    position: absolute;
+    width: 70%;
+   font-size: larger;
+   margin-bottom: 1px;
+  }
+  #gmi{
+    float:right;
+    bottom: 10%;
+
+    
+  }
+  /* feedback input css */
+  input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 10px; /* Bottom margin */
+    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  /* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px; 
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  /* FAQ css */
+  #qna{
+    margin: 100px auto;
+    width: 600px;
+ }
+#qna li{
+  list-style: none;
+  width: 100%;
+  margin-bottom: 10px;
+  background:#97f1f4;
+  padding: 10px;
+  border-radius: 4px;
+}
+#qna li label{
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+  cursor: pointer;
+  color: red;
+}
+#qna li label span{
+  transform: rotate(90deg);
+  font-size: 22px;
+  color: #b81818;
+}
+#qna label + input[type="radio"]{
+  display: none;
+}
+#qna .fcontent{
+  padding: 0 10px;
+  line-height: 24px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s;
+}
+#qna label + input[type="radio"]:checked + .fcontent{
+  max-height: 400px;
+}
